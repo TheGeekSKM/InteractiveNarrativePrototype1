@@ -16,8 +16,12 @@ function EnterPressed()
         
         text = string_lower(string_trim(text));
         var textSplit = string_split_ext(text, [ "(", ")", ",", " "], true);
+        
+        ProcessText(textSplit);
     }
 }
+
+function ProcessText(_textInputArray) {}
 
 function AttemptAutoComplete()
 {
