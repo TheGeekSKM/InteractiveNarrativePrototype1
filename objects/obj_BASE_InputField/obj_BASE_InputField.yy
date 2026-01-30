@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_panel",
-    "path":"sprites/spr_panel/spr_panel.yy",
+    "name":"spr_dottedBox",
+    "path":"sprites/spr_dottedBox/spr_dottedBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -23,7 +23,7 @@ current_offset_y = 0;
 cfg_internal = {
     text: "",
     textColor: c_white,
-    textFont: "VCR_OSD_Mono", 
+    textFont: "Monogram", 
     textScaleStart: 1,
     textScaleEnd: 1,
     textAlphaStart: 1,
