@@ -1,6 +1,6 @@
-if (GUI)
+if (!GUI)
 {
-    var str = stickVisible ? $"> {text}|" : $"> {text}";
+    var str = stickVisible ? $"M:\\Users\\Timothy > {text}|" : $"M:\\Users\\Timothy > {text}";
     draw_self();
     if (textSelected)
     {

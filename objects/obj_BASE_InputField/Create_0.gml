@@ -6,6 +6,9 @@ textSelected = false;
 recentlyEnteredText = [];
 recentlyEnteredTextIndex = -1;
 
+stickVisible = true;
+alarm[0] = 30;
+
 function EnterPressed()
 {
     if (text != "" && text != undefined)

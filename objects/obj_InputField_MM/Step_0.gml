@@ -1,7 +1,11 @@
 if (keyboard_check(vk_anykey) and string_length(text) < textLimit)
 {
-    text = string_concat(text, string(keyboard_string));
-    keyboard_string = "";
+    var len = string_length(keyboard_string);
+    if (len > 0)
+    {   
+        text += string_repeat("*", len);
+        keyboard_string = "";
+    }
 }
 
 if (keyboard_check(vk_backspace) && !keyboard_check_pressed(vk_backspace) && deleteTimer == 2)
@@ -67,9 +71,4 @@ if (textSelected && (keyboard_check_pressed(vk_backspace) || keyboard_check_pres
 {
     text = "";
     textSelected = false;
-}
-
-if (keyboard_check_pressed(vk_tab))
-{
-    AttemptAutoComplete();
 }

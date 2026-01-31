@@ -1,9 +1,10 @@
 if (!GUI)
 {
+    var str = stickVisible ? $"> {text}|" : $"> {text}";
     draw_self();
     if (textSelected)
     {
-        scribble($"> {text}")
+        scribble(str)
             .align(fa_left, fa_middle)
             .starting_format("Monogram", c_aqua)
             .transform(1, 1, image_angle)
@@ -11,7 +12,7 @@ if (!GUI)
     }
     else 
     {
-        scribble($"> {text}")
+        scribble(str)
             .align(fa_left, fa_middle)
             .starting_format("Monogram", c_white)
             .transform(1, 1, image_angle)
