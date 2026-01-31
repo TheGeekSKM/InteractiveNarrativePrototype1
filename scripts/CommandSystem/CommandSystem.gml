@@ -63,3 +63,10 @@ function CommandLibrary() constructor
         else return false;
     }
 }
+
+
+function Email(_sender, _subject, _content) constructor {
+    sender = _sender;
+    subject = _subject;
+    content = _content;
+}

@@ -16,8 +16,11 @@ scrollSpeed = 0.2;
 atBottom = false;
 atTop = false;
 
-textTransform = 0.6;
+textTransform = 1.5;
 cursorPos = 0;
+
+clipSurface = -1;
+
 
 function __getTotalLineHeight()
 {
