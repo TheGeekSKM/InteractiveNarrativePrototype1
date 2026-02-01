@@ -111,5 +111,19 @@ function ProcessEnding() {
     // 4. Deny + Ostrit Death Certificate + Medical Report -> Geralt Gets Arrested, Timothy is Hired Permanently
     // 5. Deny + Article 1 Section 1 + Timothy Recording -> Geralt Gets Arrested, King Gets Outed, Timothy is Made Into King
     // 6. Deny + No Documents -> Geralt Gets No Money, Timothy Fired
+    // Regardless of denial or acceptance, adding the TimothyRecording will always lead to the King getting outed and Timothy being made King.
     // 7. Anything else -> Timothy is Fired, Cases Moves to Another Manager
+
+    var endingStruct = {
+        endingNum: 3
+    }
+
+    var endingJSON = json_stringify(endingStruct);
+    if (file_exists(global.saveLocation + "Ending.json"))
+    {
+        file_delete(global.saveLocation + "Ending.json");
+    }
+
+    SafeWriteJson(global.saveLocation + "Ending.json", endingJSON);
+    CreateNewWindow(3);
 }

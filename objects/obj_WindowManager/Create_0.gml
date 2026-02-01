@@ -3,7 +3,13 @@
 
 global.WindowManager = id;
 global.GAME_INSTANCE_MIN = 1;
-global.saveLocation = working_directory + "/saves/";
+global.saveLocation = working_directory;
+if (!directory_exists(global.saveLocation))
+{
+    directory_create(global.saveLocation);
+}
+
+OpenFolder(global.saveLocation)
 
 global.GAME_INSTANCE_MAX = 20;
 global.CHILD_PROCESS_ID_1 = 0;
@@ -39,6 +45,13 @@ else if (global.GAME_INSTANCE_ID == 2)
     window_set_caption("MiniScript LookingGlass - Doc Request Client");
     window_set_position(random_range(0, display_get_width() - window_get_width()), random_range(0, display_get_height() - window_get_height()));
     room_goto(rmDocRequest);
+    UpdateScale(INTERNAL_WIDTH, INTERNAL_HEIGHT, true);
+}
+else if (global.GAME_INSTANCE_ID == 3)
+{
+    window_set_caption("MiniScript LookingGlass - Document Viewer");
+    window_set_position(random_range(0, display_get_width() - window_get_width()), random_range(0, display_get_height() - window_get_height()));
+    room_goto(rmEnding);
     UpdateScale(INTERNAL_WIDTH, INTERNAL_HEIGHT, true);
 }
 
