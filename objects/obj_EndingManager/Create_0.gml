@@ -15,12 +15,15 @@ switch (endingNumber) {
         break;
     case 3:
         obj_Draggable_Paper.sprite_index = Ending3_Paper;
+        obj_Draggable_Note.visible = false;
         break;
     case 4:
         obj_Draggable_Paper.sprite_index = Ending4_Paper;
+        obj_Draggable_Note.visible = false;
         break;
     case 5:
         obj_Draggable_Paper.sprite_index = Ending5_Paper;
+        obj_Draggable_Note.visible = false;
         break;
     case 6:
         obj_Draggable_Paper.sprite_index = Ending6_Paper;

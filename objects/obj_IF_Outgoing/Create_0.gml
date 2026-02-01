@@ -13,8 +13,8 @@ DocumentNames = [
     "a3s1.pdf",
     "a3s2.pdf",
     "a3s3.pdf",
-    "AddaBirthCertificate.pdf",
-    "AddaMedicalReport.pdf",
+    "PrincessBirthCertificate.pdf",
+    "PrincessMedicalReport.pdf",
     "FoltestWitnessStatement.pdf",
     "GeraltClaimsDocument.pdf",
     "GeraltHiringContract.pdf",
@@ -107,15 +107,57 @@ function ProcessText(_textInputArray)
 function ProcessEnding() {
     // 1. Accept + Article 2 Section 1 -> Geralt Gets Money, Timothy is Fired
     // 2. Accept + Article 1 Section 1 -> Geralt Gets Paid, Timothy Fired for Citing Weird Articles
-    // 3. Accept + Article 1 Section 1 + Timothy Recording -> Geralt Gets Paid, King Gets Outed, Timothy Fired
+    // 3. Accept + Article 1 Section 1 + Timothy Recording -> Geralt Gets Paid, King Gets Outed, Timothy is Made King
     // 4. Deny + Ostrit Death Certificate + Medical Report -> Geralt Gets Arrested, Timothy is Hired Permanently
     // 5. Deny + Article 1 Section 1 + Timothy Recording -> Geralt Gets Arrested, King Gets Outed, Timothy is Made Into King
     // 6. Deny + No Documents -> Geralt Gets No Money, Timothy Fired
     // Regardless of denial or acceptance, adding the TimothyRecording will always lead to the King getting outed and Timothy being made King.
     // 7. Anything else -> Timothy is Fired, Cases Moves to Another Manager
 
+    if (array_contains(usedDocuments, "TimothyRecording.mp3"))
+    {
+        if (accept)
+        {
+            endingNumber = 3;
+        }
+        else
+        {
+            endingNumber = 5;
+        }
+    }
+    else if (accept)
+    {
+        if (array_contains(usedDocuments, "a2s1.pdf"))
+        {
+            endingNumber = 1;
+        }
+        else if (array_contains(usedDocuments, "a1s1.pdf"))
+        {
+            endingNumber = 2;
+        }
+        else
+        {
+            endingNumber = 7;
+        }
+    }
+    else
+    {
+        if (array_contains(usedDocuments, "OstritDeathCertificate.pdf") || array_contains(usedDocuments, "OstritMedicalReport.pdf"))
+        {
+            endingNumber = 4;
+        }
+        else if (array_length(usedDocuments) == 0)
+        {
+            endingNumber = 6;
+        }
+        else
+        {
+            endingNumber = 7;
+        }
+    }
+
     var endingStruct = {
-        endingNum: 3
+        endingNum: endingNumber
     }
 
     var endingJSON = json_stringify(endingStruct);
@@ -125,5 +167,5 @@ function ProcessEnding() {
     }
 
     SafeWriteJson(global.saveLocation + "Ending.json", endingJSON);
-    CreateNewWindow(3);
+    CreateNewWindow(4);
 }

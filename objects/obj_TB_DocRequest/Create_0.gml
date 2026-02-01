@@ -20,6 +20,8 @@ helpStrings = [
     "Need assistance, dear? Just ask for an article by its number and section, or mention a witness's name for their details."
 ];
 
+helpText = "There's 9 Laws, dearie. That's 3 Articles with 3 Sections each. You also got several witnesses you can ask about too! Ask away!!"
+
 //
 Subscribe("TextEntered", function(_text) {
     AddMessage($"[c_aqua]TimothyLang > [c_white]{_text}\n");
@@ -55,6 +57,8 @@ Subscribe("DocRequest", function(_data) {
 
 Subscribe("HelpRequest", function(_data) {
     var randomIndex = irandom(array_length(helpStrings) - 1);
-    AddMessage($"[c_lime]Margaret > [c_white]{helpStrings[randomIndex]}\n");
+    AddMessage($"[c_lime]Margaret > [c_white]{helpStrings[randomIndex]}\n{helpText}");
 });
+
+Raise("HelpRequest", {});
 

@@ -6,7 +6,7 @@ Witnesses = [
     "Foltest",
     "Velerad",
     "Segelin",
-    "Adda",
+    "Princess",
     "Geralt",
     "Timothy"
 ]

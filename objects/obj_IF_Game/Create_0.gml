@@ -30,6 +30,7 @@ commandLibrary.AddCommand("start", 1, [function(_arg) {
             break;
         case "outbound_doc.exe":
             echo("Open Outbound Document");
+            CreateNewWindow(3);
             break;
     }
 }]);
@@ -122,26 +123,26 @@ preString = @"MiniScript LookingGlass <Version 10.0.22631.6199>
 (c) 2024 LookingGlass Interactive. All rights reserved.
 
 M:\Users\TimothyLang > dir
- Volume in drive M is LookingGlass
- Volume Serial Number is 1234-5678
+  Volume in drive M is LookingGlass
+  Volume Serial Number is 1234-5678
 
- Directory of M:\Users\TimothyLang
+  Directory of M:\Users\TimothyLang
 
   Date        Time        Type           Name
   ----------  --------    -----          -----------------
   06/10/1024  10:00 AM    <DIR>          Incoming_Files
-  10/15/1023  02:30 PM    <FIL>          Email.exe
+  10/15/1023  02:30 PM    <FIL>          Email.exe [c_red]<UNREAD>[c_white]
   11/20/1023  11:15 AM    <FIL>          Docu_Request.exe
   12/05/1023  09:45 AM    <FIL>          Notepad.exe
   01/12/1024  03:20 PM    <FIL>          Outbound_Doc.exe
 
-               4 File(s)      1,280,000 bytes
-               1 Dir(s)  100,000,000,000 bytes free
-  
-               Use [c_green]'start <file_name>'[c_white] to open a file.
+            4 File(s)      1,280,000 bytes
+            1 Dir(s)  100,000,000,000 bytes free
+
+  Use [c_green]'start <file_name>'[c_white] to open a file.
   Use [c_green]'cd <folder_name>'[c_white] to change directory.
-  
-M:\Users\TimothyLang > ";
+
+M:\Users\TimothyLang > "
 
 function ResetPreString()
 {

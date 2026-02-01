@@ -62,6 +62,46 @@ if (global.GAME_INSTANCE_ID == 0)
             show_error("ERROR: Failed to open file for reading!\n\nERROR DETAILS: Too many file descriptors opened by the current process or insufficient priviledges to access file!", true);
         }
     }
+    fname = global.saveLocation + "proc/" + string(global.CHILD_PROCESS_ID_3) + ".tmp";
+        if (file_exists(fname)) 
+        {
+            var fd = file_text_open_read(fname);
+            if (fd != -1) 
+            {
+                var str = file_text_read_string(fd);
+                file_text_readln(fd);
+                file_text_close(fd);
+                if (str == "CHILD_PROCESS_DIED") 
+                {
+                    global.CHILD_PROCESS_ID_3 = 0;
+                    echo("child3_Killed")
+                }
+            } 
+            else 
+            {
+                show_error("ERROR: Failed to open file for reading!\n\nERROR DETAILS: Too many file descriptors opened by the current process or insufficient priviledges to access file!", true);
+            }
+        }
+    fname = global.saveLocation + "proc/" + string(global.CHILD_PROCESS_ID_4) + ".tmp";
+        if (file_exists(fname)) 
+        {
+            var fd = file_text_open_read(fname);
+            if (fd != -1) 
+            {
+                var str = file_text_read_string(fd);
+                file_text_readln(fd);
+                file_text_close(fd);
+                if (str == "CHILD_PROCESS_DIED") 
+                {
+                    global.CHILD_PROCESS_ID_4 = 0;
+                    echo("child4_Killed")
+                }
+            } 
+            else 
+            {
+                show_error("ERROR: Failed to open file for reading!\n\nERROR DETAILS: Too many file descriptors opened by the current process or insufficient priviledges to access file!", true);
+            }
+        }
 }
 else 
 {
