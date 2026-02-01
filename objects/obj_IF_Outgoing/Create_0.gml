@@ -107,8 +107,8 @@ function ProcessText(_textInputArray)
 function ProcessEnding() {
     // 1. Accept + Article 2 Section 1 -> Geralt Gets Money, Timothy is Fired
     // 2. Accept + Article 1 Section 1 -> Geralt Gets Paid, Timothy Fired for Citing Weird Articles
-    // 2. Accept + Article 1 Section 1 + Timothy Recording -> Geralt Gets Paid, King Gets Outed, Timothy Fired
-    // 3. Deny + Ostrit Death Certificate + Medical Report -> Geralt Gets Arrested, Timothy is Hired Permanently
+    // 3. Accept + Article 1 Section 1 + Timothy Recording -> Geralt Gets Paid, King Gets Outed, Timothy Fired
+    // 4. Deny + Ostrit Death Certificate + Medical Report -> Geralt Gets Arrested, Timothy is Hired Permanently
     // 5. Deny + Article 1 Section 1 + Timothy Recording -> Geralt Gets Arrested, King Gets Outed, Timothy is Made Into King
     // 6. Deny + No Documents -> Geralt Gets No Money, Timothy Fired
     // 7. Anything else -> Timothy is Fired, Cases Moves to Another Manager
