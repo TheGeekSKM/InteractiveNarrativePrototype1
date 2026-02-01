@@ -1,13 +1,13 @@
-if (IsMouseOver() && mouse_check_button(mb_left))
+if (mouse_check_button_released(mb_left) && IsMouseOver())
 {
-    image_blend = c_lime;
-}
-else if (IsMouseOver() && mouse_check_button_released(mb_left))
-{
-    image_blend = c_yellow;
+    if (clicked) return;
+    
+    clicked = true;
     Raise("OnDisplayEmail", email);
 }
-else
-{
-    image_blend = c_white;
-}
+
+if (clicked) currentColor = c_yellow;
+else if (IsMouseOver()) currentColor = c_lime;
+else currentColor = c_white;
+    
+image_blend = currentColor;

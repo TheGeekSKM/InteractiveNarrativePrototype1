@@ -33,6 +33,7 @@ var lineX = 5; // Fixed padding inside the box
 for (var i = 0; i < array_length(messageList); i += 1) 
 {
     var line = messageList[i];
+
     var scrib = scribble(line)
         .align(fa_left, fa_top)
         .starting_format(font)

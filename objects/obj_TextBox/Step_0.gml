@@ -17,4 +17,4 @@ scrollOffset = clamp(scrollOffset, 0, maxScroll);
 scrollOffset = lerp(scrollOffset, targetScrollOffset, scrollSpeed);
 
 atTop = (scrollOffset <= 1);
-atBottom = (abs(targetScrollOffset - scrollOffset) <= 1);
+atBottom = (abs(targetScrollOffset - maxScroll) <= 1);

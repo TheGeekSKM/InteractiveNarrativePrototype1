@@ -17,10 +17,12 @@ function EnterPressed()
         recentlyEnteredTextIndex = array_length(recentlyEnteredText);
         echo(recentlyEnteredText);
         
-        text = string_lower(string_trim(text));
-        var textSplit = string_split_ext(text, [ "(", ")", ",", " "], true);
+        var lowerText = string_lower(string_trim(text));
+
+        var textSplit = string_split_ext(lowerText, [ "(", ")", ",", " ", ".", "!", "?", "'"], true);
         
         ProcessText(textSplit);
+        text = "";
     }
 }
 

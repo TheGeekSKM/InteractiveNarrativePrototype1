@@ -23,8 +23,9 @@ commandLibrary.AddCommand("start", 1, [function(_arg) {
         case "docu_request.exe":
             echo("Open Document Request");
             break;
-        case "notepad.exe":
+        case "notepad.txt":
             echo("Open Notepad");
+            OpenFile("Notepad.txt");
             break;
         case "outbound_doc.exe":
             echo("Open Outbound Document");
@@ -82,7 +83,7 @@ function AttemptAutoComplete()
 
     if (!autocorrected)
     {
-        var optionsArray = ["Incoming_Files", "Email.exe", "Docu_Request.exe", "Notepad.exe", "Outbound_Doc.exe"];
+        var optionsArray = ["Incoming_Files", "Email.exe", "Docu_Request.exe", "Notepad.txt", "Outbound_Doc.exe"];
         var optionsArrayLength = array_length(optionsArray);
 
         for (var i = 0; i < optionsArrayLength; i += 1) 
