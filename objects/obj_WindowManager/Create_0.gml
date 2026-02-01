@@ -34,6 +34,13 @@ else if (global.GAME_INSTANCE_ID == 1)
     room_goto(rmEmail);
     UpdateScale(INTERNAL_WIDTH, INTERNAL_HEIGHT, true);
 }
+else if (global.GAME_INSTANCE_ID == 2)
+{
+    window_set_caption("MiniScript LookingGlass - Doc Request Client");
+    window_set_position(random_range(0, display_get_width() - window_get_width()), random_range(0, display_get_height() - window_get_height()));
+    room_goto(rmDocRequest);
+    UpdateScale(INTERNAL_WIDTH, INTERNAL_HEIGHT, true);
+}
 
 function GameEnd()
 {

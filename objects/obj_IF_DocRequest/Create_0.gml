@@ -83,10 +83,12 @@ function CheckArticles(_textInputArray)
         if (_articleIndex + 1 < array_length(_textInputArray))
         {
             _articleNum = real(_textInputArray[_articleIndex + 1]);
+            if (_articleNum > 3 || _articleNum < 1) _articleNum = -1;
         }
         if (_sectionIndex + 1 < array_length(_textInputArray))
         {
             _sectionNum = real(_textInputArray[_sectionIndex + 1]);
+            if (_sectionNum > 3 || _sectionNum < 1) _sectionNum = -1;
         }
         
         if (_articleNum != -1 && _sectionNum != -1)
@@ -96,6 +98,8 @@ function CheckArticles(_textInputArray)
                 article: _articleNum,
                 section: _sectionNum
             });
+
+            OpenFile($"articles\\a{_articleNum}s{_sectionNum}.pdf");
             return true;
         }
     }
@@ -112,10 +116,12 @@ function CheckArticles(_textInputArray)
         if (_aIndex + 1 < array_length(_textInputArray))
         {
             _articleNum = real(_textInputArray[_aIndex + 1]);
+            if (_articleNum > 3 || _articleNum < 1) _articleNum = -1;
         }
         if (_sIndex + 1 < array_length(_textInputArray))
         {
             _sectionNum = real(_textInputArray[_sIndex + 1]);
+            if (_sectionNum > 3 || _sectionNum < 1) _sectionNum = -1;
         }
         
         if (_articleNum != -1 && _sectionNum != -1)
@@ -125,6 +131,8 @@ function CheckArticles(_textInputArray)
                 article: _articleNum,
                 section: _sectionNum
             });
+
+            OpenFile($"articles\\a{_articleNum}s{_sectionNum}.pdf");
             return true;
         }
     }

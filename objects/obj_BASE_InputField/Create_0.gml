@@ -19,7 +19,7 @@ function EnterPressed()
         
         var lowerText = string_lower(string_trim(text));
 
-        var textSplit = string_split_ext(lowerText, [ "(", ")", ",", " ", ".", "!", "?", "'"], true);
+        var textSplit = string_split_ext(lowerText, [ "(", ")", ",", " ", "!", "?", "'"], true);
         
         ProcessText(textSplit);
         text = "";

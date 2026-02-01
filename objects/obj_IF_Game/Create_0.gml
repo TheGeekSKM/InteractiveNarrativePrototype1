@@ -22,6 +22,7 @@ commandLibrary.AddCommand("start", 1, [function(_arg) {
             break;
         case "docu_request.exe":
             echo("Open Document Request");
+            CreateNewWindow(2);
             break;
         case "notepad.txt":
             echo("Open Notepad");
