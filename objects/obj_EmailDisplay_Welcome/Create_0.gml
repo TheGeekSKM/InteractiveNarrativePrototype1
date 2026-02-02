@@ -1,9 +1,9 @@
 email = new Email(
     "velerad@royalmail.com",
     "Welcome, New Employee!",
-    @"Salutations, my good friend.
+    @"Salutations, dear nephew.
 
-    It is I, Minister Velerad, writing to you on behalf of His Royal Majesty, Kind Foltest the Third. The King and his Mages are quite impressed with your application to join the Claims Committee. You are tasked with the serious responsibility of reviewing claims made by Hunters regarding the various supernatural phenomena that they have killed.
+    It is I, Vizier Velerad, writing to you on behalf of His Royal Majesty, Kind Foltest the Third. The King and his Mages are quite impressed with your application to be a [c_yellow][wave]Royal Claims Investigator[/wave][c_white]. You are tasked with the serious responsibility of reviewing claims made by Hunters regarding the various supernatural phenomena that they have killed.
     
     Now I must warn you to be quite careful. You see, most Hunters are not exactly the most... trustworthy of individuals. Many Hunters have been known to exaggerate or fabricate claims in order to receive greater rewards from the Crown. It will be your duty to sift through these claims and determine which are legitimate and which are not. Failure to do so could result in dire consequences for the Kingdom.
 

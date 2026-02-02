@@ -4,29 +4,27 @@ event_inherited();
 //
 
 DocumentNames = [
-    "a1s1.pdf",
-    "a1s2.pdf",
-    "a1s3.pdf",
-    "a2s1.pdf",
-    "a2s2.pdf",
-    "a2s3.pdf",
-    "a3s1.pdf",
-    "a3s2.pdf",
-    "a3s3.pdf",
-    "PrincessBirthCertificate.pdf",
-    "PrincessMedicalReport.pdf",
-    "FoltestWitnessStatement.pdf",
-    "GeraltClaimsDocument.pdf",
-    "GeraltHiringContract.pdf",
-    "OstritDeathCertificate.pdf",
-    "OstritMedicalReport.pdf",
+    "a1s1.pdf", // Done
+    "a1s2.pdf", // Done
+    "a1s3.pdf", // Done
+    "a2s1.pdf", // Done
+    "a2s2.pdf", // Done
+    "a2s3.pdf", // Done
+    "a3s1.pdf", // Done
+    "a3s2.pdf", // Done
+    "a3s3.pdf", // Done
+    "PrincessMedicalReport.pdf", // Done
+    "FoltestWitnessStatement.pdf", // Done
+    "GeraltClaimsDocument.pdf", // Done
+    "GeraltHiringContract.pdf", // Done
+    "OstritDeathCertificate.pdf", // Done
     "SegelinMageBook.pdf",
-    "SegelinWitnessStatement.pdf",
-    "TimothyNote.pdf",
+    "SegelinWitnessStatement.pdf", // Done
+    "TimothyNote.pdf", // Done
     "TimothyRecording.mp3",
     "VeleradRecording1.mp3",
     "VeleradRecording2.mp3",
-    "VeleradWitnessStatement.pdf",
+    "VeleradWitnessStatement.pdf", // Done
 ]
 
 accept = false;
