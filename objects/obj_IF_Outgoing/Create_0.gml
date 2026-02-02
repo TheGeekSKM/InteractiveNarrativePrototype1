@@ -100,6 +100,8 @@ function ProcessText(_textInputArray)
             }
         }
     }
+
+    Raise("InvalidDocument", text);
 }
 
 function ProcessEnding() {
@@ -140,7 +142,7 @@ function ProcessEnding() {
     }
     else
     {
-        if (array_contains(usedDocuments, "OstritDeathCertificate.pdf") || array_contains(usedDocuments, "OstritMedicalReport.pdf"))
+        if (array_contains(usedDocuments, "OstritDeathCertificate.pdf"))
         {
             endingNumber = 4;
         }
