@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-AddMessage("> Please enter the name of the document that you wish to send as proof of your decision, regardless of acceptance or denial of Hunter's Claim.\n Press Submit when ready.");
+AddMessage("> Please enter the name of the document that you wish to send as proof of your decision, regardless of acceptance or denial of Hunter's Claim.\n Press Submit when ready. Press 'Tab' to help Autocomplete!");
 
 Subscribe("AddedDocument", function(docName)
 {
