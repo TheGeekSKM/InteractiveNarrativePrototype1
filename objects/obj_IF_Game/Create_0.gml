@@ -139,8 +139,9 @@ M:\Users\TimothyLang > dir
             4 File(s)      1,280,000 bytes
             1 Dir(s)  100,000,000,000 bytes free
 
-  Use [c_green]'start <file_name>'[c_white] to open a file.
-  Use [c_green]'cd <folder_name>'[c_white] to change directory.
+  Use [c_lime]'start <file_name>'[c_white] to open a file.
+  Use [c_lime]'cd <folder_name>'[c_white] to change directory.
+  Press [c_lime]'Tab'[c_white] to Autocomplete commands, directories, and files.
 
 M:\Users\TimothyLang > "
 
@@ -166,9 +167,10 @@ M:\Users\TimothyLang > dir
             4 File(s)      1,280,000 bytes
             1 Dir(s)  100,000,000,000 bytes free
 
-  Use [c_green]'start <file_name>'[c_white] to open a file.
-  Use [c_green]'cd <folder_name>'[c_white] to change directory.
-
+  Use [c_lime]'start <file_name>'[c_white] to open a file.
+  Use [c_lime]'cd <folder_name>'[c_white] to change directory.
+  Press [c_lime]'Tab'[c_white] to Autocomplete commands, directories, and files.
+    
 M:\Users\TimothyLang > ";
 }
 
@@ -195,9 +197,10 @@ M:\Users\TimothyLang > dir
             4 File(s)      1,280,000 bytes
             1 Dir(s)  100,000,000,000 bytes free
 
-  Use [c_green]'start <file_name>'[c_white] to open a file.
-  Use [c_green]'cd <folder_name>'[c_white] to change directory.
-        
+  Use [c_lime]'start <file_name>'[c_white] to open a file.
+  Use [c_lime]'cd <folder_name>'[c_white] to change directory.
+  Press [c_lime]'Tab'[c_white] to Autocomplete commands, directories, and files.    
+            
 M:\Users\TimothyLang > ";
     }
 })

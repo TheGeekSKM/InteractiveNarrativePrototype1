@@ -12,7 +12,7 @@ email = new Email(
 
 2. Verify the claim by cross-referencing it with evidence from both the Codex of Magis Regiis and Witness Testimonies. [c_grey](Both can be requested in the [wave]Docu_Request.exe[/wave] application.)[c_white]
 
-3. You may use the [wave]Notepad.exe[/wave] to take notes. [c_grey](Make sure you delete all the text in the Notepad when you're done. Previous employees have been forgetful.)[c_white]
+3. You may use the [wave]Notepad.txt[/wave] to take notes. [c_grey](Make sure you delete all the text in the Notepad when you're done. Previous employees have been forgetful.)[c_white]
 
 4. Use the [wave]Outgoing_Doc.exe[/wave] application to draft your decision on the claim. [c_red](You must provide a reference to the Article and Section number in the Codex as citation.)[c_white]
 
