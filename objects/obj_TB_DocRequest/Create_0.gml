@@ -17,7 +17,7 @@ hiStrings = [
 helpStrings = [
     "To request a document, dear, please use the format: [c_lime]'Article [number] Section [number]'[c_white]. For example, 'Article 5 Section 2'.",
     "If you're looking for information on a witness, simply type their name. For instance, [c_lime]'Ostrit'[c_white] or [c_lime]'Foltest'[c_white].",
-    "Need assistance, dear? Just ask for an article by its number and section, or mention a witness's name for their details."
+    "Need assistance, dear? Just ask for an article by its [wave]number and section[/wave] (e.g. Article 1 Section 3), or mention a witness's name for their details."
 ];
 
 helpText = "There's 9 Laws, dearie. That's 3 Articles with 3 Sections each. You also got several witnesses you can ask about too! Ask away!!"

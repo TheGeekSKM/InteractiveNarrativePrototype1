@@ -185,6 +185,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_Draggable_Note","path":"objects/obj_Draggable_Note/obj_Draggable_Note.yy",},},
     {"id":{"name":"obj_Draggable_Paper","path":"objects/obj_Draggable_Paper/obj_Draggable_Paper.yy",},},
+    {"id":{"name":"obj_EmailDisplay_Margaret","path":"objects/obj_EmailDisplay_Margaret/obj_EmailDisplay_Margaret.yy",},},
     {"id":{"name":"obj_EmailDisplay_Welcome","path":"objects/obj_EmailDisplay_Welcome/obj_EmailDisplay_Welcome.yy",},},
     {"id":{"name":"obj_EmailList","path":"objects/obj_EmailList/obj_EmailList.yy",},},
     {"id":{"name":"obj_EmailManager","path":"objects/obj_EmailManager/obj_EmailManager.yy",},},

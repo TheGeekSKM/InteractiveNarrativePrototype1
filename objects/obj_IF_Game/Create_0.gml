@@ -133,7 +133,7 @@ M:\Users\TimothyLang > dir
   06/10/1024  10:00 AM    <DIR>          Incoming_Files
   10/15/1023  02:30 PM    <FIL>          Email.exe [c_red]<UNREAD>[c_white]
   11/20/1023  11:15 AM    <FIL>          Docu_Request.exe
-  12/05/1023  09:45 AM    <FIL>          Notepad.exe
+  12/05/1023  09:45 AM    <FIL>          Notepad.txt
   01/12/1024  03:20 PM    <FIL>          Outbound_Doc.exe
 
             4 File(s)      1,280,000 bytes
@@ -160,7 +160,7 @@ M:\Users\TimothyLang > dir
   06/10/1024  10:00 AM    <DIR>          Incoming_Files
   10/15/1023  02:30 PM    <FIL>          Email.exe
   11/20/1023  11:15 AM    <FIL>          Docu_Request.exe
-  12/05/1023  09:45 AM    <FIL>          Notepad.exe
+  12/05/1023  09:45 AM    <FIL>          Notepad.txt
   01/12/1024  03:20 PM    <FIL>          Outbound_Doc.exe
 
             4 File(s)      1,280,000 bytes
@@ -189,7 +189,7 @@ M:\Users\TimothyLang > dir
   06/10/1024  10:00 AM    <DIR>          Incoming_Files
   10/15/1023  02:30 PM    <FIL>          Email.exe [c_red]<UNREAD>[c_white]
   11/20/1023  11:15 AM    <FIL>          Docu_Request.exe
-  12/05/1023  09:45 AM    <FIL>          Notepad.exe
+  12/05/1023  09:45 AM    <FIL>          Notepad.txt
   01/12/1024  03:20 PM    <FIL>          Outbound_Doc.exe
 
             4 File(s)      1,280,000 bytes
