@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"Type","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"Type","filters":[],"listItems":[
         "InteractableType.Normal",
         "InteractableType.Point",
         "InteractableType.Attack",
@@ -38,12 +38,12 @@
         "InteractableType.Talk",
         "InteractableType.Null",
       ],"multiselect":false,"name":"Type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"InteractableType.Normal","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"Name","filters":[],"listItems":[],"multiselect":false,"name":"Name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"DefaultName","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"IntType","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"Name","filters":[],"listItems":[],"multiselect":false,"name":"Name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"DefaultName","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"IntType","filters":[],"listItems":[
         "IntVisType.Room",
         "IntVisType.GUI",
       ],"multiselect":false,"name":"IntType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"IntVisType.Room","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"InteractionRange","filters":[],"listItems":[],"multiselect":false,"name":"InteractionRange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"InteractionRange","filters":[],"listItems":[],"multiselect":false,"name":"InteractionRange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

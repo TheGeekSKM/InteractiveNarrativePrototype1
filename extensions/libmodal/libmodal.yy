@@ -16,14 +16,14 @@
   "exportToGame":true,
   "extensionVersion":"0.0.1",
   "files":[
-    {"$GMExtensionFile":"","%Name":"libmodal.dll","constants":[],"copyToTargets":192,"filename":"libmodal.dll","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"libmodal.dll","constants":[],"copyToTargets":192,"filename":"libmodal.dll","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"SetOwnerWindowId","argCount":0,"args":[1,1,],"documentation":"","externalName":"SetOwnerWindowId","help":"SetOwnerWindowId(window,owner)","hidden":false,"kind":1,"name":"SetOwnerWindowId","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":1,"name":"libmodal.dll","order":[],"origname":"","ProxyFiles":[
+      ],"init":"","kind":1,"name":"libmodal.dll","origname":"","ProxyFiles":[
         {"$GMProxyFile":"","%Name":"libmodal.so","name":"libmodal.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
         {"$GMProxyFile":"","%Name":"libmodal_arm.so","name":"libmodal_arm.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
         {"$GMProxyFile":"","%Name":"libmodal_arm64.so","name":"libmodal_arm64.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
       ],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
-    {"$GMExtensionFile":"","%Name":"libmodal.cpp","constants":[],"copyToTargets":0,"filename":"libmodal.cpp","final":"","functions":[],"init":"","kind":4,"name":"libmodal.cpp","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+    {"$GMExtensionFile":"v1","%Name":"libmodal.cpp","constants":[],"copyToTargets":0,"filename":"libmodal.cpp","final":"","functions":[],"init":"","kind":4,"name":"libmodal.cpp","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,
